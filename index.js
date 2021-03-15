@@ -49,12 +49,12 @@ let fileName = 'topshot_data_03142021';
         let scarcity = block.querySelector(`[class^='MomentThumbnail__StyledScarcityTag']`).innerText;
         let price = block.querySelector(`[class^='Price__PriceWrapper']`).innerText.replace("USD", "").trim();
 
-        console.log(link);
-        console.log(title);
-        console.log(description);
-        console.log(rarity);
-        console.log(scarcity);
-        console.log(price);
+        // console.log(link);
+        // console.log(title);
+        // console.log(description);
+        // console.log(rarity);
+        // console.log(scarcity);
+        // console.log(price);
 
         let jsonObj = {
           link: `https://www.nbatopshot.com${link}`,
