@@ -6,6 +6,7 @@ let masterJsonArray = [];
 let fileName = `topshot_data_${getTodayDate()}`;
 
 (async () => {
+  // If you want to see the scraping in real time, change `headless` to false
   const browser = await puppeteer.launch({
     headless: true,
   });
@@ -34,6 +35,7 @@ let fileName = `topshot_data_${getTodayDate()}`;
   while(count < 1) {
     await page.goto(`https://www.nbatopshot.com/search`);
 
+    // This can be tweaked. This is the time we allow the browser to wait for a request
     await sleep(6000);
 
     await autoScroll(page);
@@ -111,6 +113,7 @@ async function autoScroll(page){
           clearInterval(timer);
           resolve();
         }
+      // This can be tweaked. This is the time between each "scroll" that takes place. If this is too fast, the data on the page might not load quick enough
       }, 2000);
     });
   });
