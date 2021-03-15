@@ -3,7 +3,7 @@ const fs = require('fs');
 const AdblockerPlugin = require('puppeteer-extra-plugin-adblocker');
 
 let masterJsonArray = [];
-let fileName = 'topshot_data_03142021';
+let fileName = `topshot_data_${getTodayDate()}`;
 
 (async () => {
   const browser = await puppeteer.launch({
@@ -113,4 +113,24 @@ async function autoScroll(page){
       }, 2000);
     });
   });
+}
+
+function getTodayDate() {
+  let today = new Date();
+  let dd = today.getDate();
+
+  let mm = today.getMonth()+1;
+  let yyyy = today.getFullYear();
+
+  if (dd < 10) {
+    dd = '0' + dd;
+  }
+
+  if (mm < 10) {
+    mm = '0' + mm;
+  }
+
+  today = `${mm}${dd}${yyyy}`;
+
+  return today;
 }
