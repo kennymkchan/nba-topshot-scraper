@@ -80,7 +80,7 @@ let fileName = 'topshot_data_03142021';
 
   const data = JSON.stringify(masterJsonArray);
 
-  fs.writeFile(`${fileName}.json`, data, (err) => {
+  fs.writeFile(`data/${fileName}.json`, data, (err) => {
     if (err) {
       throw err;
     }
