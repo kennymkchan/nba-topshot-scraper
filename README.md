@@ -88,9 +88,9 @@ This is an example of how to list things you need to use the software and how to
    npm install
    ```
 3. Run the script to start scraping
-  ```sh
-  node index.js
-  ```
+    ```sh
+    node index.js
+    ```
 
 
 <!-- CONTRIBUTING -->
@@ -115,7 +115,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Kenny Chan - [@github](https://github.com/kennymkchan)
 
-Project Link: [https://github.com/kennymkchan/nba-topshop-scraper](httpshttps://github.com/kennymkchan/nba-topshop-scraper)
+Project Link: [https://github.com/kennymkchan/nba-topshop-scraper](https://github.com/kennymkchan/nba-topshop-scraper)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
