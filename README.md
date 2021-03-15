@@ -7,7 +7,6 @@
 
 
 <!-- PROJECT LOGO -->
-<br />
 <p align="center">
   <h3 align="center">NBA Topshot Data Scraper</h3>
 
