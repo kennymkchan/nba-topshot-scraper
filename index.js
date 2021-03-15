@@ -49,6 +49,7 @@ let fileName = `topshot_data_${getTodayDate()}`;
         let scarcity = block.querySelector(`[class^='MomentThumbnail__StyledScarcityTag']`).innerText;
         let price = block.querySelector(`[class^='Price__PriceWrapper']`).innerText.replace("USD", "").trim();
 
+        // Uncomment this if you want some confirmation that everything is captured
         // console.log(link);
         // console.log(title);
         // console.log(description);
