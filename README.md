@@ -13,14 +13,14 @@
   <p align="center">
     Node script that will use Selenium to scrape card information from NBA Topshot including card names, rarity, and lowest cost at the moment.
     <br />
-    <a href="https://github.com/kennymkchan/nba-topshop-scraper"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kennymkchan/nba-topshot-scraper"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/kennymkchan/nba-topshop-scraper">View Demo</a>
+    <a href="https://github.com/kennymkchan/nba-topshot-scraper">View Demo</a>
     ·
-    <a href="https://github.com/kennymkchan/nba-topshop-scraper/issues">Report Bug</a>
+    <a href="https://github.com/kennymkchan/nba-topshot-scraper/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kennymkchan/nba-topshop-scraper/issues">Request Feature</a>
+    <a href="https://github.com/kennymkchan/nba-topshot-scraper/issues">Request Feature</a>
   </p>
 </p>
 
@@ -81,7 +81,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/kennymkchan/nba-topshop-scraper
+   git clone https://github.com/kennymkchan/nba-topshot-scraper
    ```
 2. Install NPM packages
    ```sh
@@ -115,20 +115,20 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 Kenny Chan - [@github](https://github.com/kennymkchan)
 
-Project Link: [https://github.com/kennymkchan/nba-topshop-scraper](https://github.com/kennymkchan/nba-topshop-scraper)
+Project Link: [https://github.com/kennymkchan/nba-topshot-scraper](https://github.com/kennymkchan/nba-topshot-scraper)
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/kennymkchan/nba-topshop-scraper.svg?style=for-the-badge
-[contributors-url]: https://github.com/kennymkchan/nba-topshop-scraper/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kennymkchan/nba-topshop-scraper.svg?style=for-the-badge
-[forks-url]: https://github.com/kennymkchan/nba-topshop-scraper/network/members
-[stars-shield]: https://img.shields.io/github/stars/kennymkchan/nba-topshop-scraper.svg?style=for-the-badge
-[stars-url]: https://github.com/kennymkchan/nba-topshop-scraper/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kennymkchan/nba-topshop-scraper.svg?style=for-the-badge
-[issues-url]: https://github.com/kennymkchan/nba-topshop-scraper/issues
-[license-shield]: https://img.shields.io/github/license/kennymkchan/nba-topshop-scraper.svg?style=for-the-badge
-[license-url]: https://github.com/kennymkchan/nba-topshop-scraper/blob/master/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/kennymkchan/nba-topshot-scraper.svg?style=for-the-badge
+[contributors-url]: https://github.com/kennymkchan/nba-topshot-scraper/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kennymkchan/nba-topshot-scraper.svg?style=for-the-badge
+[forks-url]: https://github.com/kennymkchan/nba-topshot-scraper/network/members
+[stars-shield]: https://img.shields.io/github/stars/kennymkchan/nba-topshot-scraper.svg?style=for-the-badge
+[stars-url]: https://github.com/kennymkchan/nba-topshot-scraper/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kennymkchan/nba-topshot-scraper.svg?style=for-the-badge
+[issues-url]: https://github.com/kennymkchan/nba-topshot-scraper/issues
+[license-shield]: https://img.shields.io/github/license/kennymkchan/nba-topshot-scraper.svg?style=for-the-badge
+[license-url]: https://github.com/kennymkchan/nba-topshot-scraper/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/kennymchan
