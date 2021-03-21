@@ -8,7 +8,7 @@
 
 <!-- PROJECT LOGO -->
 <p align="center">
-  <h3 align="center">NBA Topshot Data Scraper</h3>
+  <h1 align="center">NBA Topshot Data Scraper</h1>
 
   <p align="center">
     Node script that will use Selenium to scrape card information from NBA Topshot including card names, rarity, and lowest cost at the moment.
