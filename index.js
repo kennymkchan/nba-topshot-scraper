@@ -50,7 +50,8 @@ let fileName = `topshot_data_${getTodayDate()}`;
         let rarity = block.querySelector(`[class^='MomentThumbnail__StyledRarityTag']`).innerText;
         let scarcity = block.querySelector(`[class^='MomentThumbnail__StyledScarcityTag']`).innerText;
         let price = block.querySelector(`[class^='Price__PriceWrapper']`).innerText.replace("USD", "").trim();
-
+        let avgPrice = block.querySelector(`[class^='AvgPrice__AvgPriceWrapper']`).innerText.replace(" Avg Sale","").trim();
+        
         // Uncomment this if you want some confirmation that everything is captured
         // console.log(link);
         // console.log(title);
@@ -58,7 +59,8 @@ let fileName = `topshot_data_${getTodayDate()}`;
         // console.log(rarity);
         // console.log(scarcity);
         // console.log(price);
-
+        // console.log(avgPrice);
+        
         let jsonObj = {
           link: `https://www.nbatopshot.com${link}`,
           title: title,
@@ -66,6 +68,7 @@ let fileName = `topshot_data_${getTodayDate()}`;
           rarity: rarity,
           scarcity: scarcity,
           price: price,
+          avgPrice: avgPrice
         };
 
         jsonArray.push(jsonObj);
